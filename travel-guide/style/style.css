@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-button{
+    background-color: #FF5400;
+    padding:10px 25px;
+    border:0;
+    border-radius: 5px;
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+margin-top:46px;
+}
+
+/* header section style */
+.nav-container{
+    display: flex;
+    gap:50%;
+    margin-top: 30px;
+}
+.nav-logo
+{
+    margin-left: 136px;
+}
+.nav-bar ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+.nav-bar a{
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right:20px ;
+}
+.home{
+    color: #FF5400;
+}
+/* hader benner style */
+.header-benner{
+    background-image: url('../images/Group-13.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom:148px;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top:50px;
+    border-radius: 10px;
+}
+.banner-title{
+    text-align: center;
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+padding-top:148px;
+
+
+}
+.banner-description{
+    text-align: center;
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-right: 35%;
+margin-left: 35%;
+margin-top: 26px;
+}
+.banner-input{
+    display: flex;  
+  margin-left: 27%;
+  margin-top: 48px;
+ padding:20px;
+gap: 10px;
+background-color:#ffffff3b;
+ width:48%;
+ border-radius: 5px;
+ margin-bottom:30px;
+}
+.Where{
+    padding: 20px 20px;
+    border:0;
+    border-radius: 5px;
+}
+.find{
+    padding: 20px 20px;
+    border:0;
+    border-radius: 5px;
+}
+i.fa.fa-search {
+    background-color: #FF5400;
+    padding: 15px 10px;
+    margin-left: 10px;
+}
+.select-type{
+    padding: 20px 40px;
+    border:0;
+    border-radius: 5px;
+}
+
+.find-now input{
+    background-color: #FF5400;
+}
+.find-now{
+    background-color: #FF5400;
+    color:#FFF;
+    border-radius: 5px;
+}
+/* Popular Tours sectiuon  style */
+.Popular-Tours{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+    gap: 30%;
+}
+.tours-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.tours-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-top: 24px;
+
+}
+.tours{
+    width: 40%;
+}
+.estination-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top:100px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-top:24px;
+margin-bottom:48px;
+margin-left:34%;
+margin-right:34%;
+}
+/* Choose section style */
+.hotel-service{
+    display:flex;
+    margin-left: 100px;
+    margin-right:100px;
+    gap:220px;
+    margin-top:48px;
+}
+.choose-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top: 100px;
+margin-bottom:24px;
+}
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-left: 35%;
+margin-right: 35%;
+margin-bottom:48px;
+}
+.hotel-img{
+    width: 64px;
+height: 64px;
+
+}
+.hotel{
+    background-color: #ff550011;
+    width:40%;
+    padding:30px;
+    border-radius: 10px;
+}
+.hotel-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin-top:32px;
+margin-bottom:16px;
+}
+.hotel-description{
+    color: #5A5A5D;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+width: 80%;
+}
+.service{
+    background-color: #3700ff0a;
+    width:40%;
+    padding:30px;
+    border-radius: 10px;
+}
+.service-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top:32px;
+    margin-bottom:16px;
+}
+.service-description{
+    color: #5A5A5D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 80%;
+}
+.price{
+    background-color: #ff550011;
+    width:40%;
+    padding:30px;
+    margin-left: 30%;
+margin-right: 30%;
+margin-top:24px;
+border-radius: 10px;
+}
+.price-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top:32px;
+    margin-bottom:16px;
+}
+.price-description{
+    color: #5A5A5D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 80%;
+}
+
+/* blog style */ 
+.blog-img{
+    width: 30%;
+    border-radius: 10px;
+   margin-left: 35%;
+}
+.blog-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.blog-description{
+    color: #5A5A5D;
+    text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 30px;
+text-overflow: ellipsis;
+}
+/* newsletter section style */
+
+.news-letter-section{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.newsletter{
+    border:solid 2px #FF5400;
+    padding:50px 20px;
+    border-radius: 8px;
+    padding-left: 40px;
+    width:40%;
+    height: 20%;
+}
+.news-container{
+    display: flex;
+    margin-left: 100px;
+    margin-right:100px;
+    gap:190px;
+   
+}
+.newsletter-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin-bottom:16px;
+}
+.newsletter-description{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 50%; 
+margin-bottom:24px;
+}
+.name{
+    padding:15px;
+   width: 50%;
+    background-color: #5a5a5d2c;
+    border:0;
+    
+}
+.email{
+    margin-top:16px;
+    padding:15px;
+    width: 50%;
+    background-color: #5a5a5d2c;
+    border:0;
+    margin-bottom:24px;
+}
+.ubscribe{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 800;
+border:0;
+width: 54%;
+padding: 15px 0;
+}
+.save-up{
+   transform: rotate(-40deg) translatey(600px) translatex(1250px);
+   width: 40%;
+}
+
+.seve-up-container{
+    border-radius: 8px;
+background: #FF5400;
+
+padding:20px;
+width: 35%;
+
+
+
+}
+.travle-link{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+
+}
+.save-title{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+
+}
+/* Choose-section */
+.destination-imag{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.maldives-indonesia{
+    display: grid;
+    grid-template-columns:repeat(2, 2fr);
+}
+.maldives-indonesia img{
+    width: 90%;
+   
+}
+.srilanka-america-kashmir{
+    display: grid;
+    grid-template-columns:repeat(3, 3fr);
+}
+.srilanka-america-kashmir img{
+    width: 90%;
+    height: 60%;
+    margin-top: 20px;
+}
+.bangladesh-bandarban{
+    display: grid;
+   grid-template-columns: repeat(2, 700px 1060px);
+
+   margin-top: -180px;
+}
+.bangladesh-bandarban img{
+    width: 90%;
+   
+}
+/* footer section style */
+.footer-section{
+    background-color:#42424733
+}
+.footer-logo{
+    margin-top:110px;
+    margin-left:45%;
+margin-right:45%;
+
+}
+.footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-left:32%;
+margin-right:32%;
+margin-top:15px;
+
+}
+.footer-icon{
+    display: flex;
+    margin-left:45%;
+    margin-top: 33px;
+
+}
+.facebook{
+    width:3%;
+    margin-right:9px;
+}
+hr{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #5a5a5d13;
+}
+.cofi-right{
+    color: #131318;
+font-size: 16px;;
+font-weight: 300;
+text-align: center;
+margin-top:60px;
+padding-bottom:110px;
+}
+
+
+
+@media screen and (max-width:600px){
+
+    .banner-title
+{
+  text-align: center;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 148px;
+ 
+}
+.banner-description
+{
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 26px;
+}
+.banner-input{
+    flex-direction: column;
+    margin-left: 20%;
+}
+.Popular-Tours  {
+   
+    flex-direction: column;
+}
+.tours
+{
+  width: 90%;
+}
+.mountain
+{
+  margin-top: 20px;
+  margin-left: -70px;
+}
+.hotel-service {
+   
+    flex-direction: column;
+    gap: 100px;
+}
+.hotel
+{
+  background-color: #ff550011;
+  width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.service
+{
+  
+  width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.price
+{
+    margin-left: 17%;
+  width: 60%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.news-container{
+    flex-direction: column;
+    gap: 30px;
+}
+.newsletter
+{
+  border: solid 2px #FF5400;
+  padding: 50px 20px;
+    padding-left: 20px;
+  border-radius: 8px;
+  padding-left: 40px;
+  width: 80%;
+  height: 20%;
+}
+.save-up
+{
+    transform: rotate(-20deg) translatey(-102px) translatex(280px);
+    width: 100%;
+  }
+.save-title
+{
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 800;
+}
+.footer-description
+{
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15px;
+}
+.facebook
+{
+  width: 9%;
+ 
+}
+.footer-icon
+{
+  margin-left: 43%;
+ 
+}
+.cofi-right
+{
+  
+  padding-bottom: 50px;
+}
+.maldives-indonesia
+{
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+.srilanka-america-kashmir
+{
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+}
+.bangladesh-bandarban
+{
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-top: -90px;
+}
+.bandarban
+{
+  margin-top: 20px;
+}
+.indonesia
+{
+  margin-top: 20px;
+}
+
+.choose-description
+{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 48px;
+}
+.destination-description
+{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.nav-container {
+    display: flex;
+    gap: 50%;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.nav-bar
+{
+  margin-left: 30p;
+  margin-top: 30px;
+}
+.blog-img
+{
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 15%;
+}
+.blog-title
+{
+  font-size: 30px;
+}
+.blog-description
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
